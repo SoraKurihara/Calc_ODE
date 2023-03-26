@@ -25,5 +25,5 @@ python demo.py
 
 # Author
 
-* 栗原　そら
+* 栗原　空良
 * 関西大学
