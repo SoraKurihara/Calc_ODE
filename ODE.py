@@ -29,7 +29,7 @@ class Solve_ODE:
         dfdt = X + self.dt*(alpha_*k1 + beta_*k2 + gamma_*k3 + delta_*k4)
         return dfdt
 
-    def Calculation(self, Init, T_End, Method='RK'):
+    def Calculation(self, Init, T_End=100, Method='RK'):
         Time = np.arange(0, T_End, self.dt)
         Calc = np.empty((len(Time),len(Init)))
         Calc[0] = Init
