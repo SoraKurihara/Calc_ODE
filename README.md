@@ -18,7 +18,7 @@ numpy配列を用いることで，数値計算を高速におこなうことが
 # Usage
 
 ```bash
-git clone https://github.com/hoge/~
+git clone https://github.com/SoraKurihara/Calc_ODE
 cd Calc_ODE
 python demo.py
 ```
